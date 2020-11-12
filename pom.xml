@@ -29,6 +29,12 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
             <version>3.3.3</version>
             <scope>test</scope>
         </dependency>
@@ -41,7 +47,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
-                   <!-- <argLine>@{argLine} -Xmx1024m</argLine> -->
+                    <!-- <argLine>@{argLine} -Xmx1024m</argLine> -->
                     <failIfNoTests>true</failIfNoTests>
                 </configuration>
             </plugin>
